@@ -40,7 +40,7 @@ public class UsersController {
 		user2.setTeamName("zhaodui");
 		return usersRepository.save(user2);	
 	}
-	
+	//TEST
 	@GetMapping(value="/del")
 	public String delAll(){
 		usersRepository.deleteAll();
